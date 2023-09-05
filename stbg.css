@@ -79,6 +79,7 @@ img{
     margin: 5px;
     margin-left: 200px;
     margin-right: 200px;
+    display: inline-block;
 }
 
 .tlanche{
