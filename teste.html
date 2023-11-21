@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="tab-container">
+    <button class="tablinks" onclick="openCategory(event, 'lanches')">Lanches</button>
+    <button class="tablinks" onclick="openCategory(event, 'bebidas')">Bebidas</button>
+    <!-- Adicione mais botões conforme necessário -->
+
+    <div id="lanches" class="tabcontent">
+        <!-- Conteúdo para lanches -->
+        <h2>Lanches</h2>
+        <ul>
+            <li>Hamburguer</li>
+            <li>Hot Dog</li>
+            <!-- Adicione mais itens de menu de lanches conforme necessário -->
+        </ul>
+    </div>
+
+    <div id="bebidas" class="tabcontent">
+        <!-- Conteúdo para bebidas -->
+        <h2>Bebidas</h2>
+        <ul>
+            <li>Refrigerante</li>
+            <li>Suco</li>
+            <!-- Adicione mais itens de menu de bebidas conforme necessário -->
+        </ul>
+    </div>
+    <!-- Adicione mais divs conforme necessário para outras categorias -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
