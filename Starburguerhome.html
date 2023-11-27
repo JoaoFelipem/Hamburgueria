@@ -8,54 +8,46 @@
     <title>Starburguer</title>
     <link rel="shortcut icon" href="imgs/SBlogo.png" type="image/png">
     <link rel="stylesheet" href="stbg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    
 </head>
 
 <body>
 
-    <header>
+    <header>        
         
-        
-        <nav>
+        <nav class="navega">
 
-            <div id="mnhome"> 
-            <div class="logo"> <a href="Starburguerhome.html"> <img src="imgs/SBlogo.png" width="150px" height="150px"> </a>  </div>
-            <div class="logotxt"> <a href="Starburguerhome.html"> Starburguer</a> </div>
-            <ul class="links">
-                
-                <li><a href="Starburguerhome.html#cardapio">Cardápio</a></li>
-                <li><a href="Quemsomos.html">Quem Somos</a></li>
-                <li><a href="Starburguerhome.html#promocao">Promoção do Dia</a></li>
-                <li><a href="Contato.html">Contato</a></li>
-                <li><a href="Localizacao.html">Localização</a></li>
-               
-            </ul>
+            <div class="logoetitulo">
+                <div class="logo"> <a href="Starburguerhome.html"> <img src="imgs/SBlogo.png"> </a>  </div>
+                <div class="logotitulo"> <a href="Starburguerhome.html" class="titulotxt"> Starburguer</a> </div>
+            </div>
+            
+            <div class="link">
+                <ul class="links">    
+                    <li><a href="Starburguerhome.html#cardap">Cardápio</a></li>
+                    <li><a href="Starburguerhome.html#promocao">Promoção do Dia</a></li>
+                    <li><a href="Quemsomos.html">Quem Somos</a></li>
+                    <li><a href="Localizacao.html">Localização</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
             </div>
         </nav>
-
     </header>
 
-    <div class = "home">
-    <section id="home">
-        
-        <p>Bem-vindo à Starburguer!</p>
-    </section>
+    <div class = "bemvindo">
+        <p>Bem-vindo à Starburguer, a casa do hambúrguer! Qual o seu pedido?</p>
     </div>
+
+
+
     <br>
-
-    <center>
-    <div class = "somos">
-    <section id="quemsomos">
-        <h2>Quem Somos</h2>
-        <p>Somos apaixonados por hambúrgueres e buscamos oferecer a melhor experiência gastronômica para você!</p>
-    </section>
-</center>
-
-</div>
-<br>
-<br>
-<br>
-    <div class="cardapio">
-             
+    <br>
+    <br>
+    <div class="cardapio" id="cardap">
+             <h1> Cardápio </h1>
         <div class="itens">
             
             <div class="hambu">
@@ -184,27 +176,14 @@
 
     </div>
 
-    
-    <center>
-    <div class="contato"
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Entre em contato conosco através do e-mail: contato@starburguer</p>
-    </section>
-    </div>
-
-    <div class="localizacao"
-    <section id="localizacao">
-        <h2>Localização</h2>
-        <address>
-            Rua dos Programadores, 404<br>
-            Bairro Digital, Cidade dos Códigos
-        </address>
-    </section>
-</div>
-</center>
     <footer>
-        <p>Starburguer &copy; 2023. Todos os direitos reservados.</p>
+        <div class="contatope"> 
+            <t>Notou algo de errado ou gostaria de dar uma sugestão?</t> <a class="text" href="Contato.html"> <t>Envie-nos uma mensagem</t> </a>
+        </div>
+
+        <div class="localpe">
+            <t>Starburguer &copy; 2023. Todos os direitos reservados -</t> <a class="text" href="Localizacao.html#divmapa"> <t>Rua Rio Amazonas, 151 - Bairro Jardim dos Migrantes - Ji-Paraná - RO</t> </a>  
+        </div>
     </footer>
 
 </body>
