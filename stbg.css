@@ -1,3 +1,4 @@
+/* Estrutura das páginas*/
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,18 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+.conteudo{
+    flex-grow: 1;
 }
 
 /* Navegação */
@@ -88,6 +101,36 @@ nav ul li a:hover {
     background-color: #555;
 }
 
+/* Rodapé */
+
+.rodape{
+    flex-shrink: 0;
+    background-color: #fb9c17;
+}
+.contatope{
+    background-color: #696969;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.localpe{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%; 
+}
+
+a.text{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 /* Página do cardápio */
 
 .bemvindo{
@@ -130,6 +173,11 @@ background-color: #fb9c17;
     display: flex;
 }
 
+img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
 .hambu {
     display: flex;
     flex-wrap: wrap;
@@ -148,14 +196,27 @@ background-color: #fb9c17;
     justify-content: space-evenly;
 }
 
-
-body {
-    background-color:white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.tlanche{
+    color: #141414;
+    margin-left: 10px;
+    font-size:  23px;
+    font-family: Arial;
+    font-weight: bold;
 }
 
+.lanches p{
+    margin-left: 15px;
+    font-family: Arial;
+}
+
+.lanches img{
+    max-width: 20%;
+    max-height: 20%;
+
+}
+
+
+/* Página quem somos*/
 .somos{
     width: 80%;
     padding: 15px;
@@ -179,40 +240,6 @@ section {
 
 
 
-
-
-/* Rodapé */
-.contatope{
-    background-color: #696969;
-    color: #fff;
-    text-align: center;
-    padding: 15px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-.localpe{
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%; 
-}
-
-a.text{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-
-img{
-    max-width: 50%;
-    max-height: 50%;
-}
 
 .container01 {
     max-width: 800px;
@@ -286,39 +313,20 @@ img{
         opacity: 1;
     }
 }
-.tlanche{
-    color: #141414;
-    margin-left: 10px;
-    font-size:  23px;
-    font-family: Arial;
-    font-weight: bold;
-}
 
-.lanches p{
-    margin-left: 15px;
-    font-family: Arial;
-}
-
-.lanches img{
-    max-width: 20%;
-    max-height: 20%;
-
-}
-
-
-.contato2{
+/* Página Contato*/
+.contatodiv{
     background-color: #696969;
     color: #fff;
     text-align: center;
-    padding: 50px 0;
     position: relative;
     bottom: 0;
     width: 100%;
 }
 
 
-/* Conteúdo pag Localização */
-.localizacao2{
+/* Página Localização */
+.localizacaodiv{
     height: 470px;
     width: 100%;
     margin-bottom: 20px;
@@ -328,7 +336,6 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    
     text-align: center;
     position: relative;
     
