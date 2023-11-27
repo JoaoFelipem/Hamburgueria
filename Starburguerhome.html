@@ -8,10 +8,6 @@
     <title>Starburguer</title>
     <link rel="shortcut icon" href="imgs/SBlogo.png" type="image/png">
     <link rel="stylesheet" href="stbg.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
-    
 </head>
 
 <body class="corpo">
@@ -28,7 +24,7 @@
             <div class="link">
                 <ul class="links">    
                     <li><a href="Starburguerhome.html#cardap">Cardápio</a></li>
-                    <li><a href="Starburguerhome.html#promocao">Promoção do Dia</a></li>
+                    <li><a href="Starburguerhome.html#promodia">Promoção do Dia</a></li>
                     <li><a href="Quemsomos.html">Quem Somos</a></li>
                     <li><a href="Localizacao.html">Localização</a></li>
                     <li><a href="Contato.html">Contato</a></li>
@@ -38,15 +34,15 @@
     </header>
 
 
-    <main class="conteudo">
+    <main class="conteudo" id="cardap">
 
         <div class = "bemvindo">
             <p>Bem-vindo à Starburguer, a casa do hambúrguer! Qual o seu pedido?</p>
         </div>
 
-        <br> <br> <br>
-        <div class="cardapio" id="cardap">
-            <h1> Cardápio </h1>
+        <br>
+        <div class="cardapio" >
+            <div class="cardtxt"> <h1 > Cardápio </h1> </div>
             <div class="itens">
             
                 <div class="hambu">
@@ -54,120 +50,182 @@
                         <div class="imginfo">
                             <img src="imgs\xburguer.jpg"> 
                             <div class="infos">
-                            <p class="tlanche">X-Burguer </p> 
-                            <p class="desc">Pão brioche, Hambúrguer artesanal 200g, queijo musarela e molho especial  </p>
+                                <p class="tlanche">X-Burguer </p> 
+                                <p class="desc">Pão brioche, Hambúrguer artesanal 200g, queijo musarela e molho especial  </p>
                             </div>
                         </div>
-                    <p1 class="preco">R$15,00</p>
+                        <div>
+                            <p1 class="preco">R$15,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                    <img src="imgs\xburguer.jpg"> 
-                    <div>
-                        <p class="tlanche">X-Salada </p> 
-                        <p>Pão brioche, Hambúrguer artesanal 200g, queijo musarela, Alface, Tomate e Molho especial  </p>
-                    </div>
-                    <p>R$16,00</p>
-                    </div>
-
-                    <div class="item">
-                    <img src="imgs\xburguer.jpg"> 
-                    <div>
-                        <p class="tlanche">X-Bacon </p> 
-                        <p>Pão brioche, Hambúrguer artesanal 200g, queijo musarela, Bacon e molho especial  </p> 
-                    </div>
-                    <p>R$17,00</p>
+                        <div class="imginfo">
+                            <img src="imgs\xsalada.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">X-Salada </p> 
+                                <p class="desc">Pão brioche, Hambúrguer artesanal 200g, queijo musarela, Alface, Tomate e Molho especial  </p>
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$16,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                    <img src="imgs\xburguer.jpg"> 
-                    <div>
-                        <p class="tlanche">X-Tudo</p> 
-                        <p>Pão brioche, Hambúrguer artesanal 200g, queijo musarela, Presunto, Bacon, Calabresa, Ovo, 
-                        Alface, Tomate e molho especial  </p> 
-                    </div>
-                    <p>R$25,00</p>
+                        <div class="imginfo">
+                            <img src="imgs\xbacon.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">X-Bacon  </p> 
+                                <p class="desc">Pão brioche, Hambúrguer artesanal 200g, queijo musarela, Bacon e molho especial  </p>
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$17,00</p>
+                        </div>
                     </div>
 
-                </div>
+                    <div class="item">
+                        <div class="imginfo">
+                            <img src="imgs\xtudo.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">X-Tudo </p> 
+                                <p class="desc">Pão brioche, Hambúrguer artesanal 200g, queijo musarela, Presunto, Bacon, Calabresa, Ovo, 
+                                Alface, Tomate e molho especial  </p>
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$25,00</p>
+                        </div>
+                    </div>
+
 
                 <div class="porcoes">
 
                     <div class="item">
-                        <img src="imgs\xburguer.jpg"> 
-                        <div>
-                            <p class="tlanche">Porção pequena de Batata frita</p>
-                            <p>100g de batata frita </p> 
+                        <div class="imginfo">
+                            <img src="imgs\batata.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">Porção pequena de Batata frita </p> 
+                                <p class="desc">100g de batata frita  </p>
+                            </div>
                         </div>
-                        <p1>R$8,00</p1>
+                        <div>
+                            <p1 class="preco">R$8,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="imgs\xburguer.jpg"> 
-                        <div>
-                            <p class="tlanche">Porção grande de Batata frita</p>
-                            <p>300g de batata frita </p> 
+                        <div class="imginfo">
+                            <img src="imgs\batata.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">Porção grande de Batata frita </p> 
+                                <p class="desc">300g de batata frita  </p>
+                            </div>
                         </div>
-                        <p>R$20,00</p>
+                        <div>
+                            <p1 class="preco">R$20,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="imgs\xburguer.jpg"> 
-                        <div>
-                            <p class="tlanche">Porção pequena de Anéis de Cebola</p>
-                            <p>100g de Anéis de cebola </p> 
+                        <div class="imginfo">
+                            <img src="imgs\cebola.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">Porção pequena de Anéis de Cebola </p> 
+                                <p class="desc">100g de Anéis de cebola  </p>
+                            </div>
                         </div>
-                        <p>R$10,00</p>
+                        <div>
+                            <p1 class="preco">R$10,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="imgs\xburguer.jpg"> 
-                        <div>
-                            <p class="tlanche">Porção grande de Anéis de Cebola</p>
-                            <p>300g de Anéis de cebola </p> 
+                        <div class="imginfo">
+                            <img src="imgs\cebola.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">Porção grande de Anéis de Cebola </p> 
+                                <p class="desc">300g de Anéis de cebola  </p>
+                            </div>
                         </div>
-                        <p>R$22,00</p>
+                        <div>
+                            <p1 class="preco">R$22,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="imgs\xburguer.jpg"> 
-                        <div>
-                            <p class="tlanche">Porção de Batata Frita com Bacon</p>
-                            <p>250g de Batata Frita com Bacon </p> 
+                        <div class="imginfo">
+                            <img src="imgs\batata.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">Porção de Batata Frita com Bacon </p> 
+                                <p class="desc">250g de Batata Frita com Bacon  </p>
+                            </div>
                         </div>
-                        <p>R$20,00</p>
+                        <div>
+                            <p1 class="preco">R$20,00</p>
+                        </div>
                     </div>
 
                 </div>
 
                 <div class="bebidas">
 
+
                     <div class="item">
-                        <img src="imgs\cocalata.webp"> 
-                        <p class="tlanche">Coca cola lata 350ml</p>
-                        <p>R$5,00</p>
+                        <div class="imginfo">
+                            <img src="imgs\cocalata.webp"> 
+                            <div class="infos">
+                                <p class="tlanche">Coca cola lata 350ml </p> 
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$5,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="imgs\600.png"> 
-                        <p class="tlanche">Coca cola 600ml</p>
-                        <p>R$7,00</p>
+                        <div class="imginfo">
+                            <img src="imgs\cocalata.webp"> 
+                            <div class="infos">
+                                <p class="tlanche">Coca cola 600ml </p> 
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$7,00</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                        <img src="imgs\600.png"> 
-                        <p class="tlanche">Coca cola 2l</p>
-                        <p>R$13,00</p>
+                        <div class="imginfo">
+                            <img src="imgs\cocalata.webp"> 
+                            <div class="infos">
+                                <p class="tlanche">Coca cola 2l </p> 
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$13,00</p>
+                        </div>
                     </div>
 
                 </div>
 
-                <div id="promodia">
+                <div class="cardtxt"> 
+                    <h1 > Promoção do dia </h1> 
+                </div>
+
+                <div class="promodia" id="promodia">
                     <div class="item">
-                        <img src="imgs\xburguer.jpg"> 
-                        <p class="tlanche">Quinta do queijo </p> 
-                        <p>X-burguer com queijo cheddar e requeijão + Coca cola lata 350ml</p>
-                        <p>R$19,00</p>
+                        <div class="imginfo">
+                            <img src="imgs\xtudo.jpg"> 
+                            <div class="infos">
+                                <p class="tlanche">Quinta do queijo </p> 
+                                <p class="desc">X-burguer com queijo cheddar e requeijão + Coca cola lata 350ml  </p>
+                            </div>
+                        </div>
+                        <div>
+                            <p1 class="preco">R$19,00</p>
+                        </div>
                     </div>
                 </div>
 
