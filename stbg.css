@@ -315,15 +315,25 @@ section {
 }
 
 /* Página Contato*/
+
 .contatodiv{
-    background-color: #696969;
     color: #fff;
+    display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
     position: relative;
+    justify-content: space-evenly;
     bottom: 0;
     width: 100%;
 }
 
+.formcontato{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Página Localização */
 .localizacaodiv{

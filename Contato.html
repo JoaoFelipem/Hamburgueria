@@ -34,7 +34,34 @@
 
     <main class="conteudo">
         <div class="contatodiv">
-            
+            <h2>Envie sua sugestão ou reclamação</h2>
+            <form>
+                <fieldset class="formcontato">
+                    <div>
+                        <labe for="email">Email:</labe>
+                        <input type="email" name="email">
+                    </div>
+                    
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto">
+                            <option selected disabled value="">Selecione</option>
+                            <option> Atendimento</option>
+                            <option> Entrega</option>
+                            <option> Estabelecimento</option>
+                            <option> Site</option>
+                            <option> Outro</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="mensagem"> Sua mensagem</label>
+                        <textarea rows 6 name="mensagem"> </textarea>
+                    </div>
+                    
+                    <button class="button" type="submit">Enviar</button>
+                </fieldset>
+            </form>
         </div>
     </main>
     
